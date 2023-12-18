@@ -81,12 +81,12 @@ public class CalcTest {
         final int val1 = 2;
         final int val2 = 2;
 
-        final  int result = calc.multiplication(val1, val2);
+        final  int result = calc.multiplication (val1, val2);
 
         //Then
 
-        final int exepected = val1 * val2;
-        assertEquals(exepected, result);
+        final int expected = val1 * val2;
+        assertEquals(expected, result);
     }
 
     @Test
