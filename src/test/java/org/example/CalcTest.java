@@ -128,7 +128,7 @@ public class CalcTest {
         //When & Then
 
         final int val1 = 2;
-        final int val2 = 2;
+        final int val2 = 0;
 
         assertThrows(IllegalArgumentException.class, () -> calc.division(val1, val2));
     }
