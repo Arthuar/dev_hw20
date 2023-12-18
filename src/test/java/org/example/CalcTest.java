@@ -27,7 +27,7 @@ public class CalcTest {
     }
 
     @After
-    public void afterStartTestTime () {
+    public void afterStartTestTime() {
         System.out.println( "Test has been finished at: " + System.currentTimeMillis());
     }
     @Test
@@ -51,7 +51,7 @@ public class CalcTest {
     }
 
     @Test
-    public void testSubtraction (){
+    public void testSubtraction(){
         //Given
 
         Calc calc = new Calc();
