@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.CalcTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-12-18T22:14:13" hostname="DESKTOP-42KFQVG" time="0.087">
+  <properties/>
+  <testcase name="testSum()" classname="org.example.CalcTest" time="0.06"/>
+  <testcase name="testMultiplicationByZero()" classname="org.example.CalcTest" time="0.005"/>
+  <testcase name="testMultiplication()" classname="org.example.CalcTest" time="0.002"/>
+  <testcase name="testDivisionByZero()" classname="org.example.CalcTest" time="0.002"/>
+  <testcase name="testDivision()" classname="org.example.CalcTest" time="0.005"/>
+  <testcase name="testSubtraction()" classname="org.example.CalcTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
