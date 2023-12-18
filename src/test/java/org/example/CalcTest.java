@@ -27,8 +27,8 @@ public class CalcTest {
     }
 
     @After
-    public void afterStartTestTime() {
-        System.out.println("Test has been finished at: " + System.currentTimeMillis());
+    public void afterStartTestTime () {
+        System.out.println( "Test has been finished at: " + System.currentTimeMillis());
     }
     @Test
     public void testSum(){
