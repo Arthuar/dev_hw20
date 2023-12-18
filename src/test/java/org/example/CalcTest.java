@@ -51,7 +51,7 @@ public class CalcTest {
     }
 
     @Test
-    public void testSubtraction(){
+    public void testSubtraction (){
         //Given
 
         Calc calc = new Calc();
@@ -66,12 +66,12 @@ public class CalcTest {
         //Then
 
         final int expected = (val1 - val2);
-        assertEquals(expected, result);
+        assertEquals (expected, result);
 
     }
 
     @Test
-    public void testMultiplication(){
+    public void testMultiplication (){
         //Given
 
         Calc calc = new Calc();
@@ -90,7 +90,7 @@ public class CalcTest {
     }
 
     @Test
-    public void testDivision(){
+    public void testDivision (){
         //Given
         Calc calc = new Calc();
 
@@ -107,7 +107,7 @@ public class CalcTest {
     }
 
     @Test
-    public void testMultiplicationByZero(){
+    public void testMultiplicationByZero (){
         //Given
         Calc calc = new Calc();
 
