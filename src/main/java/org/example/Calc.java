@@ -16,7 +16,7 @@ public class Calc {
     }
 
     public double division(int val1, int val2){
-        if(val1 == 0 || val2 == 0){
+        if( val2 == 0){
             throw new IllegalArgumentException();
         }
         return (double) (val1 / val2);
