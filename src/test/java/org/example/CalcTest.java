@@ -12,13 +12,13 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 public class CalcTest {
 
     @BeforeClass
-    public static void beforeClassStartTestTime() {
-        System.out.println("Test class has been started at: " + System.currentTimeMillis());
+    public static void beforeClassStartTestTime () {
+        System.out.println ( "Test class has been started at: " + System.currentTimeMillis());
     }
 
     @AfterClass
-    public static void afterClassStartTestTime() {
-        System.out.println("Test class has been finished at: " + System.currentTimeMillis());
+    public static void afterClassStartTestTime () {
+        System.out.println ("Test class has been finished at: " + System.currentTimeMillis());
     }
 
     @Before
